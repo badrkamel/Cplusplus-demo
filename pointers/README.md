@@ -48,3 +48,11 @@ int main () {
 }
 ```
 
+```cpp
+/* Two equivalent function prototypes */
+
+int LittleFunction(int *paramN);
+int LittleFunction(int paramN[]);
+```
+
+Now we're ready to discuss pointer arithmetic. You can add and subtract integer values to/from pointers. If myArray is declared to be some type of array, the expression *(myArray+j), where j is an integer, is equivalent to myArray[j].
